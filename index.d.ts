@@ -931,7 +931,7 @@ declare namespace SpotifyApi {
     interface UserObjectPublic {
         country?: string,
         display_name?: string,
-        email: string,
+        email?: string,
         external_urls: ExternalUrlObject,
         followers?: FollowersObject,
         href: string,
