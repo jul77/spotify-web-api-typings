@@ -929,12 +929,15 @@ declare namespace SpotifyApi {
      * [](https://developer.spotify.com/web-api/object-model/#track-object-simplified)
      */
     interface UserObjectPublic {
+        country?: string,
         display_name?: string,
+        email: string,
         external_urls: ExternalUrlObject,
         followers?: FollowersObject,
         href: string,
         id: string,
         images?: ImageObject[],
+        product: string,
         type: "user",
         uri: string
     }
