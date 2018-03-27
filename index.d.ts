@@ -940,3 +940,6 @@ declare namespace SpotifyApi {
     }
 
 }
+
+export = SpotifyApi;
+export as namespace SpotifyApi;
